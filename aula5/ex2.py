@@ -1,0 +1,5 @@
+nome = input("nome do corretor:")
+vendas = float(input("vendas do corretor:"))
+valorV = float(input("escreva o valor total de suas vendas:"))
+salario = 1500 + (200*vendas) + (0.05*valorV)
+print(nome,"seu salario é:",salario)
